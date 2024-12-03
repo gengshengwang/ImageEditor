@@ -1,0 +1,1607 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CloudPrinterImageEditor",
+    "printedName": "CloudPrinterImageEditor",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CloudPrinterImageEditor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageEditorAction",
+        "printedName": "ImageEditorAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "save",
+            "printedName": "save",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudPrinterImageEditor.ImageEditorAction.Type) -> CloudPrinterImageEditor.ImageEditorAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageEditorAction",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                    "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageEditorAction",
+                        "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                        "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO4saveyA2CmF",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO4saveyA2CmF",
+            "moduleName": "CloudPrinterImageEditor"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudPrinterImageEditor.ImageEditorAction.Type) -> CloudPrinterImageEditor.ImageEditorAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageEditorAction",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                    "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageEditorAction",
+                        "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                        "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO6cancelyA2CmF",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO6cancelyA2CmF",
+            "moduleName": "CloudPrinterImageEditor"
+          },
+          {
+            "kind": "Var",
+            "name": "rotate",
+            "printedName": "rotate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudPrinterImageEditor.ImageEditorAction.Type) -> CloudPrinterImageEditor.ImageEditorAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageEditorAction",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                    "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudPrinterImageEditor.ImageEditorAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageEditorAction",
+                        "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                        "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO6rotateyA2CmF",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO6rotateyA2CmF",
+            "moduleName": "CloudPrinterImageEditor"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorAction",
+                "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorAction",
+                "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO2eeoiySbAC_ACtFZ",
+            "moduleName": "CloudPrinterImageEditor",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO9hashValueSivp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO9hashValueSivp",
+            "moduleName": "CloudPrinterImageEditor",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD6ActionO9hashValueSivg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO9hashValueSivg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CloudPrinterImageEditor0cD6ActionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO4hash4intoys6HasherVz_tF",
+            "moduleName": "CloudPrinterImageEditor",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23CloudPrinterImageEditor0cD6ActionO",
+        "mangledName": "$s23CloudPrinterImageEditor0cD6ActionO",
+        "moduleName": "CloudPrinterImageEditor",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "imageEditorDelegate",
+        "printedName": "imageEditorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "imageEditor",
+            "printedName": "imageEditor(_:action:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorView",
+                "printedName": "CloudPrinterImageEditor.ImageEditorView",
+                "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorAction",
+                "printedName": "CloudPrinterImageEditor.ImageEditorAction",
+                "usr": "s:23CloudPrinterImageEditor0cD6ActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CloudPrinterImageEditor05imageD8DelegateP0eD0_6action9transformyAA0cD4ViewC_AA0cD6ActionOSDySSSdGtF",
+            "mangledName": "$s23CloudPrinterImageEditor05imageD8DelegateP0eD0_6action9transformyAA0cD4ViewC_AA0cD6ActionOSDySSSdGtF",
+            "moduleName": "CloudPrinterImageEditor",
+            "genericSig": "<τ_0_0 where τ_0_0 : CloudPrinterImageEditor.imageEditorDelegate>",
+            "sugared_genericSig": "<Self where Self : CloudPrinterImageEditor.imageEditorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23CloudPrinterImageEditor05imageD8DelegateP",
+        "mangledName": "$s23CloudPrinterImageEditor05imageD8DelegateP",
+        "moduleName": "CloudPrinterImageEditor",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageEditorView",
+        "printedName": "ImageEditorView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5imageSo7UIImageCSgvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskOpacity",
+            "printedName": "maskOpacity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC11maskOpacity14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11maskOpacity12CoreGraphics7CGFloatVvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11maskOpacity14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11maskOpacity12CoreGraphics7CGFloatVvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11maskOpacity14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11maskOpacity12CoreGraphics7CGFloatVvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11maskOpacity14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11maskOpacity12CoreGraphics7CGFloatVvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskColor",
+            "printedName": "maskColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC9maskColorSo7UIColorCvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderColor",
+            "printedName": "borderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderColorSo7UIColorCvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderWidth",
+            "printedName": "borderWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC11borderWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC11borderWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gesturesEnabled",
+            "printedName": "gesturesEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC15gesturesEnabledSbvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSupportRotateGesture",
+            "printedName": "isSupportRotateGesture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC22isSupportRotateGestureSbvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHiddenSaveButton",
+            "printedName": "isHiddenSaveButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC18isHiddenSaveButtonSbvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHiddenRotateButton",
+            "printedName": "isHiddenRotateButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC20isHiddenRotateButtonSbvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any CloudPrinterImageEditor.imageEditorDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvp",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvp",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CloudPrinterImageEditor.imageEditorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "imageEditorDelegate",
+                        "printedName": "any CloudPrinterImageEditor.imageEditorDelegate",
+                        "usr": "s:23CloudPrinterImageEditor05imageD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvg",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvg",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CloudPrinterImageEditor.imageEditorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "imageEditorDelegate",
+                        "printedName": "any CloudPrinterImageEditor.imageEditorDelegate",
+                        "usr": "s:23CloudPrinterImageEditor05imageD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvs",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvs",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvM",
+                "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC8delegateAA05imageD8Delegate_pSgvM",
+                "moduleName": "CloudPrinterImageEditor",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorView",
+                "printedName": "CloudPrinterImageEditor.ImageEditorView",
+                "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView(im)initWithFrame:",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CloudPrinterImageEditor",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:visualSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorView",
+                "printedName": "CloudPrinterImageEditor.ImageEditorView",
+                "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC5frame10visualSizeACSo6CGRectV_So6CGSizeVtcfc",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5frame10visualSizeACSo6CGRectV_So6CGSizeVtcfc",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:visualSize:image:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageEditorView",
+                "printedName": "CloudPrinterImageEditor.ImageEditorView",
+                "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.Double]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CloudPrinterImageEditor0cD4ViewC5frame10visualSize5image9transformACSo6CGRectV_So6CGSizeVSo7UIImageCSgSDySSSdGSgtcfc",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC5frame10visualSize5image9transformACSo6CGRectV_So6CGSizeVSo7UIImageCSgSDySSSdGSgtcfc",
+            "moduleName": "CloudPrinterImageEditor",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView(im)layoutSubviews",
+            "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC14layoutSubviewsyyF",
+            "moduleName": "CloudPrinterImageEditor",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CloudPrinterImageEditor@objc(cs)ImageEditorView",
+        "mangledName": "$s23CloudPrinterImageEditor0cD4ViewC",
+        "moduleName": "CloudPrinterImageEditor",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 846,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1247,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1542,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1985,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/watson\/Desktop\/Workshop\/Swift_Learning\/CloudPrinterImageEditor\/CloudPrinterImageEditor\/ImageEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2889,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
