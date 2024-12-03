@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A94E59AE2CA6A23500730806 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A94E59AD2CA6A23500730806 /* SnapKit */; };
+		A94E59B12CA6A24D00730806 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A94E59B02CA6A24D00730806 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A97971FE2CA2CA2500D5B142 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -22,6 +27,19 @@
 			remoteInfo = ImageEditor;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A96CF3F12CA5675700429C53 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A97971E72CA2CA2400D5B142 /* ImageEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94E59B12CA6A24D00730806 /* Kingfisher in Frameworks */,
+				A94E59AE2CA6A23500730806 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +135,7 @@
 				A97971E32CA2CA2400D5B142 /* Sources */,
 				A97971E42CA2CA2400D5B142 /* Frameworks */,
 				A97971E52CA2CA2400D5B142 /* Resources */,
+				A96CF3F12CA5675700429C53 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +146,8 @@
 			);
 			name = ImageEditor;
 			packageProductDependencies = (
+				A94E59AD2CA6A23500730806 /* SnapKit */,
+				A94E59B02CA6A24D00730806 /* Kingfisher */,
 			);
 			productName = ImageEditor;
 			productReference = A97971E72CA2CA2400D5B142 /* ImageEditor.app */;
@@ -208,6 +231,10 @@
 			);
 			mainGroup = A97971DE2CA2CA2400D5B142;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A94E59AC2CA6A23500730806 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A94E59AF2CA6A24D00730806 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A97971E82CA2CA2400D5B142 /* Products */;
 			projectDirPath = "";
@@ -290,6 +317,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 339MLC9UXD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageEditor",
+					"$(PROJECT_DIR)/ImageEditor/Framework",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/ImageEditor/Frameworks",
+					"$(PROJECT_DIR)/Frames",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageEditor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +335,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wgs.ImageEditor;
@@ -318,6 +357,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 339MLC9UXD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageEditor",
+					"$(PROJECT_DIR)/ImageEditor/Framework",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/ImageEditor/Frameworks",
+					"$(PROJECT_DIR)/Frames",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageEditor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +375,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wgs.ImageEditor;
@@ -569,6 +620,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A94E59AC2CA6A23500730806 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A94E59AF2CA6A24D00730806 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A94E59AD2CA6A23500730806 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A94E59AC2CA6A23500730806 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A94E59B02CA6A24D00730806 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A94E59AF2CA6A24D00730806 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97971DF2CA2CA2400D5B142 /* Project object */;
 }

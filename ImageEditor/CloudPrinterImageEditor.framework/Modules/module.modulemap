@@ -1,6 +1,0 @@
-framework module CloudPrinterImageEditor {
-  umbrella header "CloudPrinterImageEditor.h"
-  export *
-
-  module * { export * }
-}
